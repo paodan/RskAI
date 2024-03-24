@@ -14,6 +14,7 @@ text2Image(
   style = c("vivid", "natural"),
   user = NULL,
   output = NULL,
+  key = NULL,
   returnFull = FALSE,
   verbose = FALSE
 )
@@ -53,6 +54,8 @@ OpenAI to monitor and detect abuse.}
 \item{returnFull}{logical, whether to return a `response` object. Default is FALSE.}
 
 \item{verbose}{logical, whether to show the respoding details of the server. Default is FALSE.}
+
+\item{the}{API key for OpenAI}
 }
 \description{
 Use DALL-E2 or DALL-E3 model to convert text to a image (or images).

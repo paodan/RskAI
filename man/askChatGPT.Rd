@@ -17,7 +17,7 @@ askChatGPT(
 \arguments{
 \item{text}{character, the question}
 
-\item{key}{the API key for ChatGPT}
+\item{key}{the API key for OpenAI}
 
 \item{model}{The model to use, "gpt-3.5-turbo"}
 

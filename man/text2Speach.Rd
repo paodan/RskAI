@@ -19,7 +19,7 @@ text2Speach(
 \arguments{
 \item{text}{character, the question}
 
-\item{key}{the API key for Gemini.}
+\item{key}{the API key for OpenAI}
 
 \item{model}{The model to use, one of c("tts-1", "tts-1-hd")}
 

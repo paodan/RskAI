@@ -21,6 +21,7 @@
 #' @param user A unique identifier representing your end-user, which can help
 #' OpenAI to monitor and detect abuse.
 #' @param output Either NULL (default) or character for output picture file name.
+#' @param the API key for OpenAI
 #' @param returnFull logical, whether to return a `response` object. Default is FALSE.
 #' @param verbose logical, whether to show the respoding details of the server. Default is FALSE.
 #' @export
@@ -47,7 +48,7 @@ text2Image = function(prompt,
                       style = c("vivid", "natural"),
                       user = NULL,
                       output = NULL,
-                      returnFull = FALSE, verbose = FALSE){
+                      key = NULL, returnFull = FALSE, verbose = FALSE){
   if(missing(prompt)) stop("prompt must be provided.")
   model = match.arg(model)
   if(model == "dall-e-3"){

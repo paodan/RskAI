@@ -19,6 +19,9 @@
 #' must be set `verbose_json` to use timestamp granularities. Either or both of
 #' these options are supported: `word`, or `segment.` Note: There is no additional
 #' latency for segment timestamps, but generating word timestamps incurs additional latency.
+#' @param key the API key for OpenAI
+#' @param returnFull logical, whether to return a `response` object. Default is FALSE.
+#' @param verbose logical, whether to show the respoding details of the server. Default is FALSE.
 #' @examples
 #' \dontrun{
 #' # Convert texts to audio

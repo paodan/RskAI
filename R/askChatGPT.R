@@ -1,6 +1,6 @@
 #' This function is to ask ChatGPT a question and get the answer from it.
 #' @param text character, the question
-#' @param key the API key for ChatGPT
+#' @param key the API key for OpenAI
 #' @param model The model to use, "gpt-3.5-turbo"
 #' @param textForSystem character, the extra information for system
 #' @param moreHeaders NULL

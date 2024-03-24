@@ -1,7 +1,7 @@
 
 #' Convert text to an audio file
 #' @param text character, the question
-#' @param key the API key for Gemini.
+#' @param key the API key for OpenAI
 #' @param model The model to use, one of c("tts-1", "tts-1-hd")
 #' @param voice one of c("alloy", "echo", "fable", "onyx", "nova", "shimmer")
 #' @param response_format one of c("mp3", "opus", "aac", "flac", "wav", "pcm")
