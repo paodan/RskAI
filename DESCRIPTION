@@ -1,0 +1,15 @@
+Package: RskAI
+Type: Package
+Title: Ask AI Models Questions with R
+Version: 1.0.0
+Date: 2024-03-23
+Authors@R: person("Weiyang", "Tao", email = "weiyangtao1513@gmail.com", role = c("aut", "cre"))
+Description: This package uses the APIs provided by Google's [`Gemini`](https://ai.google.dev/) and OpenAI's [`ChatGPT`](https://platform.openai.com/docs/overview) to allow you to: ask `Gemini` questions and get answers for free; ask `ChatGPT` questions and get answers (not free, charged by ChatGPT); ask `ChatGPT` to convert text to audios (not free, charged by ChatGPT); ask `ChatGPT` to generate transcriptions/subtitles for audios (not free, charged by ChatGPT); ask `ChatGPT` to generate images with texts (not free, charged by ChatGPT). More functionalities will be implemented in the future.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr,
+    jsonlite,
+    tools
+RoxygenNote: 7.3.1
