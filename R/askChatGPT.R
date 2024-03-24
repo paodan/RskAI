@@ -18,12 +18,13 @@
 #' }
 #' @export
 # This function will be modified
-askChatGPT = function(text = "Compose a poem that explains the concept of recursion in programming.",
+askChatGPT = function(text,
                       key = NULL,
                       model = "gpt-3.5-turbo",
-                      textForSystem = "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair.",
+                      textForSystem = NULL,
                       moreHeaders = c(),
                       returnFull = FALSE, verbose = FALSE){
+  if(missing(text)) stop("text must be provided.")
   key = .checkKey(key, "OPENAI_API_KEY", 51)
   url = 'https://api.openai.com/v1/chat/completions'
 

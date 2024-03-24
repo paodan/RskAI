@@ -51,7 +51,7 @@ askGemini = function(text, key = NULL, returnFull = FALSE, verbose = FALSE){
   headers = c('Content-Type' = 'application/json')
 
   # Send POST request
-  response = httr_POST(url = url, config = add_headers(headers),
+  response = httr_POST(url = urlKey, config = add_headers(headers),
                        body = json_data,
                        verbose = verbose)
 

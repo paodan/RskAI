@@ -5,11 +5,10 @@
 \title{This function is to ask ChatGPT a question and get the answer from it.}
 \usage{
 askChatGPT(
-  text = "Compose a poem that explains the concept of recursion in programming.",
+  text,
   key = NULL,
   model = "gpt-3.5-turbo",
-  textForSystem =
-    "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair.",
+  textForSystem = NULL,
   moreHeaders = c(),
   returnFull = FALSE,
   verbose = FALSE
