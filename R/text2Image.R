@@ -99,10 +99,16 @@ text2Image = function(prompt,
                        verbose = verbose)
 
   res = content(response)
+
+  if(!is.null(res$error$type)){
+    stop(res$error$message)
+  }
+
   res = list(revised_prompt = res$data[[1]]$revised_prompt,
              url = res$data[[1]]$url)
 
-  if(!is.null(output)){
+  if(!is.null(output) && !is.null(res$url)){
+    output = paste0(tools::file_path_sans_ext(output), ".png")
     stutus = download.file(res$url, destfile = output)
     if(stutus == 0) {
       message("Picture is downloaded as: ", normalizePath(output))
