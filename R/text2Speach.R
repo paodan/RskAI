@@ -22,7 +22,7 @@
 #' text2Speach("把这个转换成中文普通话.", voice = "nova",
 #'              output = "Chinese.mp3")
 #‘ text2Speach("Convierte esto al habla española.", output = "Spanish.mp3")
-#' text2Speach("Convertissez ceci en un monologue anglais", output = "Franch.mp3")
+#' text2Speach("Convertissez ceci en un monologue anglais", output = "French.mp3")
 #' text2Speach("把这个English conversation转换成中文对话.", voice = "nova",
 #'              output = "Mix.mp3")
 #' }

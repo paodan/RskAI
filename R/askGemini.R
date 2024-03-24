@@ -27,7 +27,7 @@
 #' # Ask Gemini a Chinese question
 #' askGemini("你是谁")
 #'
-#' # Ask Gemini a Franch question
+#' # Ask Gemini a French question
 #' askGemini("Qui es-tu")
 #'
 #' # Ask Gemini a Spanish question

@@ -83,7 +83,7 @@ askGemini("Who are you")
 # Ask Gemini a Chinese question
 askGemini("你是谁")
 
-# Ask Gemini a Franch question
+# Ask Gemini a French question
 askGemini("Qui es-tu")
 
 # Ask Gemini a Spanish question
@@ -99,7 +99,7 @@ I am Gemini, a multi-modal AI model, developed by Google.>
 > # Ask Gemini a Chinese question
 > askGemini("你是谁")
 我是 Gemini，是 Google 开发的多模态 AI 语言模型。> 
-> # Ask Gemini a Franch question
+> # Ask Gemini a French question
 > askGemini("Qui es-tu")
 Je suis Gemini, un grand modèle multimodal, entraîné par Google.> 
 > # Ask Gemini a Spanish question
@@ -155,8 +155,8 @@ text2Speach("把这个转换成中文普通话.", voice = "nova", output = "Chin
 # Spanish
 text2Speach("Convierte esto al habla española.", output = "Spanish.mp3")
 
-# Franch
-text2Speach("Convertissez ceci en un monologue anglais", output = "Franch.mp3")
+# French
+text2Speach("Convertissez ceci en un monologue anglais", output = "French.mp3")
 
 # Mixture of English and Chinese
 # And try another voice "nova"
